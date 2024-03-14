@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Firebase-Authentication- App-tk4"
 include(":app")
+include(":app")
  
