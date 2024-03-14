@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             .addOnCompleteListener(this) {task ->
                 if(task.isSuccessful)
                 {
-                    Toast.makeText(this, "TK You are now logged in", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "You are now logged in", Toast.LENGTH_SHORT).show()
                 }else
                 {
                     Toast.makeText(this, "Invalid Login", Toast.LENGTH_SHORT).show()
